@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Welcome to Alliance Larp Utah</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- font awesome icons -->
+        <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <!-- Custom fonts for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+        
+        <!-- Custom styles for this template -->
+        <link href="css/business-casual.min.css" rel="stylesheet">
+        <script src="vendor/jquery/jquery.js"></script>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/jquery/jquery-ui.min.js"></script>
+        <script src="vendor/jquery/jquery-ui.js"></script>
+        <script src="productscript.js" type="text/javascript"></script>
+
+        <style>
+            .fadeIn0, .fadeIn1, .fadeIn3, .fadeIn4, .fadeIn5
+            {
+                display: none;
+                cursor: pointer;
+            }
+            .fadeIn2
+            {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="site-heading text-center text-white d-none d-lg-block">
+            <!--<h1 class="site-heading text-center text-white d-none d-lg-block">-->
+            <span class="site-heading-upper text-primary mb-3">Welcome to Alliance Larp Utah</span>
+            <span class="site-heading-lower">A Guild cannot operate on nil</span>
+            <!--</h1>-->
+        </h1>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Alliance Larp Utah</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Nav icon -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4 nav justify-content-end">
+                            <a class="nav-link text-uppercase text-expanded" href="index.html">
+                                <i class="fa fa-home"> </i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-4 nav justify-content-end">
+                            <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item px-lg-4 nav justify-content-end">
+                            <a class="nav-link text-uppercase text-expanded" href="contact.html">
+                                Contact Us</a>
+                        </li>
+                        <li class="nav-item px-lg-4 nav justify-content-end active">
+                            <a class="nav-link text-uppercase text-expanded" href="products.html">
+                                <i class="fa fa-currency"></i>Shop/Donate
+                            <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-4 nav justify-content-end">
+                            <a class="nav-link text-uppercase text-expanded" href="resources.php">
+                               Resources</a>
+                        </li>
+<!--                        <li class="nav-item px-lg-4 nav justify-content-end">
+                            <a class="nav-link text-uppercase text-expanded" href="http://ec2-35-167-48-165.us-west-2.compute.amazonaws.com/CSIS2470/quickstart/sponsors.html">Our Sponsors</a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="page-section about-heading">
+            <div class="container">
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-10 col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-4">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-lower" style="font-size: 40px;">Products</span>
+                                </h2>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn0">                       
+                                            
+                                            <image data-toggle="modal" data-target="#modal" id="foodplan" 
+                                                class="img-fluid table-sm toggle rounded" 
+                                                src="ProductImages/BreadColorNB.png">
+                                                Food plan
+                                            
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn0">
+                                            <image data-toggle="modal" data-target="#modal" id="tent"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/TentColor.png">
+                                                Sleeping in a tent
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn0">
+                                            <image  data-toggle="modal" data-target="#modal" id="cabin"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/CabinColor.png">
+                                                Sleeping in a cabin
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn0">
+                                            <image data-toggle="modal" data-target="#modal" id="membership"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/MembershipColor.png">
+                                                Membership fee
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn0">
+                                            <image data-toggle="modal" data-target="#modal" id="gamefee"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/DoubleAxeColor.png">
+                                                Game fee
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn0">
+                                            <image data-toggle="modal" data-target="#modal" id="weekendpackage"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/AxeColor.png">
+                                                Weekend package
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn1">
+                                            <image data-toggle="modal" data-target="#modal" id="daypackage"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/DoubleAxeColor.png">
+                                                Day package
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn1">
+                                            <image data-toggle="modal" data-target="#modal" id="forgeweapon"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/SwordColor.png">
+                                                Forge your own weapon
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="fadeIn2">
+                                    <h2 class="section-heading mb-4">
+                                        <span class="section-heading-lower" style="font-size: 40px;">Donate</span>
+                                        <span class="section-heading-upper">Help Our Cause</span>
+                                    </h2>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn3">
+                                            <image data-toggle="modal" data-target="#modal" id="donate"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/HandsColor.png">
+                                                Donate Money
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn3">
+                                            <image data-toggle="modal" data-target="#modal" id="donateweapons"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/SwordColor.png">
+                                                Weapons
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn3">
+                                            <image data-toggle="modal" data-target="#modal" id="donatepackets"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/ArrowColor.png">
+                                                Packets
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn4">
+                                            <image data-toggle="modal" data-target="#modal" id="miscellaneous"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/WaterColor.png">
+                                                Miscellaneous
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn4">
+                                            <image data-toggle="modal" data-target="#modal" id="costuming"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/CostumesColor.png">
+                                                Costuming
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn4">
+                                            <image data-toggle="modal" data-target="#modal" id="masks"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/MaskColor.png">
+                                                Masks
+                                        </div>
+                                        <div class="col-xs-11 col-md-6 col-lg-4 fadeIn5">
+                                            <image data-toggle="modal" data-target="#modal" id="time"
+                                                class="img-fluid table-sm" 
+                                                src="ProductImages/TimeColor.png">
+                                                Your Time
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer text-faded text-center py-5">
+            <div class="container">
+                <p class="m-0 small">Copyright &copy; 2018 Alliance Larp Utah - All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+        <!-- Modal Food Plan-->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #e6a756;">
+                <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <image class="img-fluid table-sm col-lg-12" id="modelimage" src="">
+                  <p class="col-lg-12" id="modaltext"></p>
+              </div>
+              <div class="modal-footer">
+                <p class="col-xs-3 col-lg-4" id="modalfooter"></p>
+              
+                    <button  type="button" id="submit" class="btn btn-primary col-xs-1 col-lg-4">
+                       Add To Cart
+                     </button>
+               
+                <button type="button" class="btn btn-secondary col-xs-1 col-lg-3" data-dismiss="modal">Return</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>

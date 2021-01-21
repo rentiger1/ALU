@@ -1,0 +1,183 @@
+<?php
+require_once "DBConnection.php";
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Welcome to Alliance Larp Utah</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- font awesome icons -->
+        <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Custom fonts for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/business-casual.min.css" rel="stylesheet">
+
+        <!--Fotorama-->
+        <!-- 1. Link to jQuery (1.8 or later), -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+        <!-- fotorama.css & fotorama.js. -->
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+    </head>
+
+    <body>
+
+        <h1 class="site-heading text-center text-white d-none d-lg-block">
+            <h1 class="site-heading text-center text-white d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">Welcome to Alliance Larp Utah</span>
+                <span class="site-heading-lower">Who We Are</span>
+            </h1>
+        </h1>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Alliance Larp Utah</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4">
+                            <a class="nav-link text-uppercase text-expanded" href="index.html">
+                                <i class="fa fa-home"> </i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item active px-lg-4">
+                            <a class="nav-link text-uppercase text-expanded" href="about.html">About
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-4">
+                            <a class="nav-link text-uppercase text-expanded" href="contact.html">
+                                Contact Us</a>
+                        </li>
+                        <li class="nav-item px-lg-4">
+                            <a class="nav-link text-uppercase text-expanded" href="products.html">
+                                <i class="fa fa-cart"></i>Shop/Donate</a>
+                        </li>
+                        <li class="nav-item  px-lg-4">
+                            <a class="nav-link text-uppercase text-expanded" href="resources.php">
+                                <i class="fa fa-currency"></i>Resources</a>
+                        </li>
+                        <!--            <li class="nav-item px-lg-4">
+                                      <a class="nav-link text-uppercase text-expanded" href="http://ec2-35-167-48-165.us-west-2.compute.amazonaws.com/CSIS2470/quickstart/sponsors.html">Our Sponsors</a>
+                                    </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="page-section about-heading">
+            <div class="container">
+
+                <!--Image Carousel.  Just add the source!-->
+                <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" style="margin-bottom: 10%;">
+                    <img src="img/about.jpg" alt="">
+                    <img src="img/gal02.jpg">
+                    <img src="img/gal03.jpg">
+                    <img src="img/gal04.jpg">
+                    <img src="img/gal05.jpg">
+                    <img src="img/gal06.jpg">
+                    <img src="img/gal08.jpg">
+                    <img src="img/gal09.jpg">
+                    <img src="img/gal10.jpg">
+                    <img src="img/gal11.jpg">
+                    <img src="img/gal07.jpg" alt="">
+                </div>
+
+
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Are you ready to</span>
+                                    <span class="section-heading-lower">Level Up!</span>
+                                </h2>
+                                <p> Do you have what it takes to seek adventure, fame, and fortune? Come join us in a land  
+                                    rich with adventure, mystery and intrigue, magic and necromancy, wealth, power, and more. 
+                                    Whether you want to be a heroic warrior, dashing rogue, a craftsman, a travelling bard or 
+                                    poet, famed healer, or a mighty wizard, we have created a world that's waiting just for 
+                                    you. Alliance LARP Utah is a live action role-playing game set in a medieval/fantasy world
+                                    where you take on a persona of your choosing and interact with other players and a cast 
+                                    of NPCs both benevolent and malign. There are no scripts as the outcomes to many plotlines
+                                    are decided by your actions. Put down the dice and paper, log off, grab your gear and come
+                                    join Alliance LARP Utah on a new quest. 
+                                </p>
+                                <p class="mb-0">Alliance Live Action Role-Playing Utah is a group committed to bringing 
+                                    action-packed weekend adventures to the LARP Community. Through quality writing and plotlines
+                                    that establish setting, various dynamic NPC characters, and conflicts great and small, we 
+                                    are dedicated to bringing you the best live gaming experience.  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section about-heading p-5">
+            <div class="container-fluid">
+                <div class='about-heading-content'>
+                    <div class='row'>
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <?php
+                                $query = "SELECT * FROM ALUStaff.People order by Fname";
+                                $result = $con->query($query);
+                                if (!$result) {
+                                    $message = "Whole query " . $search;
+                                    echo $message;
+                                    die('Invalid query: ' . mysqli_error($con));
+                                }
+
+                                while ($row = $result->fetch_assoc()) {
+                                    $staffPic = $row["image"];
+                                    $staffName = $row["Fname"]." ".$row["Lname"];
+                                    $staffBio = $row['bio'];
+                                    print <<<HTML
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/$staffPic" alt="Image of staff member">
+                                    <div class="card-body">
+                                        <h5 class="card-title">$staffName</h5>
+                                        <p class="card-text">$staffBio</p>
+                                        <a href="#" class="btn btn-primary">Link</a>
+                                    </div>
+                                </div>       
+HTML;
+                                }
+                                $con->close();
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container">
+                <p class="m-0 small">Copyright &copy; 2018 Alliance Larp Utah - All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
